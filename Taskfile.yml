@@ -1,0 +1,16 @@
+version: '3'
+
+tasks:
+  download:
+    desc: Download files from URLs in config.json
+    cmds:
+      - |
+        jq -r '.subscriptions[] | "\(.url) \(.name)"' config.json | while read -r url name; do
+          wget -O "${name}.txt" "$url"
+        done
+    silent: true
+  clean:
+    desc: Remove all .txt files
+    cmds:
+      - rm -f *.txt
+    silent: true
