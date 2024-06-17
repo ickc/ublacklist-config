@@ -1,0 +1,76 @@
+{
+  "syncAppearance": true,
+  "linkColor": "default",
+  "highlightColors": [],
+  "syncGeneral": true,
+  "hideControl": false,
+  "blockColor": "default",
+  "enablePathDepth": false,
+  "syncBlocklist": true,
+  "syncInterval": 15,
+  "updateInterval": 120,
+  "dialogTheme": "default",
+  "blockWholeSite": true,
+  "subscriptions": [
+    {
+      "name": "Pinterest",
+      "url": "https://raw.githubusercontent.com/rjaus/ublacklist-pinterest/main/ublacklist-pinterest.txt",
+      "enabled": true
+    },
+    {
+      "name": "GitHub Translation splogs",
+      "url": "https://raw.githubusercontent.com/arosh/ublacklist-github-translation/master/uBlacklist.txt",
+      "enabled": true
+    },
+    {
+      "name": "Stack Overflow Translation splogs",
+      "url": "https://raw.githubusercontent.com/arosh/ublacklist-stackoverflow-translation/master/uBlacklist.txt",
+      "enabled": true
+    },
+    {
+      "name": "Fake webstores",
+      "url": "https://raw.githubusercontent.com/franga2000/aliexpress-fake-sites/main/domains_uBlacklist.txt",
+      "enabled": true
+    },
+    {
+      "name": "Yelp",
+      "url": "https://raw.githubusercontent.com/rjaus/ublacklist-yelp/main/ublacklist-yelp.txt",
+      "enabled": true
+    },
+    {
+      "name": "Generic content farm",
+      "url": "https://raw.githubusercontent.com/wdmpa/content-farm-list/main/uBlacklist.txt",
+      "enabled": true
+    },
+    {
+      "name": "StopModReposts",
+      "url": "https://api.stopmodreposts.org/minecraft/ublacklist.txt",
+      "enabled": true
+    },
+    {
+      "name": "uBlock-Origin-dev-filter-global",
+      "url": "https://raw.githubusercontent.com/quenhus/uBlock-Origin-dev-filter/main/dist/other_format/uBlacklist/global.txt",
+      "enabled": true
+    },
+    {
+      "name": "ublacklist-ai by Sarah Engel",
+      "url": "https://github.com/HerXayah/ublacklist-ai/raw/main/ublacklist-ai.txt",
+      "enabled": true
+    },
+    {
+      "name": "ublacklist-anti-ai-art-subscription by Ranmaru22",
+      "url": "https://codeberg.org/ranmaru22/ublacklist-anti-ai-art-subscription/raw/branch/main/list.txt",
+      "enabled": true
+    },
+    {
+      "name": "uBlockOrigin & uBlacklist Huge AI Blocklist by laylavish",
+      "url": "https://raw.githubusercontent.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist/main/list_uBlacklist.txt",
+      "enabled": true
+    }
+  ],
+  "blacklist": "*://*.scribd.com/*",
+  "hideBlockLinks": false,
+  "skipBlockDialog": false,
+  "syncSubscriptions": true,
+  "version": "8.7.1"
+}
