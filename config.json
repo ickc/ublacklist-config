@@ -7,8 +7,8 @@
   "blockColor": "default",
   "enablePathDepth": false,
   "syncBlocklist": true,
-  "syncInterval": 15,
-  "updateInterval": 120,
+  "syncInterval": 120,
+  "updateInterval": 1440,
   "dialogTheme": "default",
   "blockWholeSite": true,
   "subscriptions": [
