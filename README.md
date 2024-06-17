@@ -5,6 +5,10 @@ A [ublacklist](https://github.com/iorate/ublacklist) config.
 - Click "Backup" in the extension setting to obtain the json, and save it to `config.json`.
 - Click "Restore" and choose `config.json` to write it back.
 
+# Notes
+
+You may need to re-activate sync after restore from a file.
+
 # Utilities
 
 ## Dependencies
